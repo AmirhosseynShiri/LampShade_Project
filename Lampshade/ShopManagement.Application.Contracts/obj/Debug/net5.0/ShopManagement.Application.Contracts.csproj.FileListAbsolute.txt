@@ -1,0 +1,15 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_FrameWork.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_FrameWork.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\refint\ShopManagement.Application.Contracts.dll
