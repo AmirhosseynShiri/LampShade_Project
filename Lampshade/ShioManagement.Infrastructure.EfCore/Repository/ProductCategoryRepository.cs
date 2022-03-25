@@ -33,7 +33,14 @@ namespace ShioManagement.Infrastructure.EfCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
-        
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryViewModel 
+            {
+            Id=x.Id,
+            Name=x.Name
+            }).ToList();
+        }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {

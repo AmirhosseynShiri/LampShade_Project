@@ -164,3 +164,15 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Create.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Edit.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Index.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\_SiteMessages.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\AdminBaseRazorPage.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Create.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Edit.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Index.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slide\Create.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slide\Edit.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slide\Index.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_Menu.cshtml.g.cs
