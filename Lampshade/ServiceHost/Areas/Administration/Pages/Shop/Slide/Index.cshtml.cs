@@ -55,10 +55,12 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slide
             var result = _slideApplication.Remove(id);
             if (result.IsSuccedded)
             {
-                TempData[SuccessMessage] = "محصول مورد نظر در انبار موجود شد!";
+                
+                TempData[SuccessMessage] = "محصول مورد نظر در انبار خالی شد!";
                 return RedirectToPage("./Index");
             }
-            TempData[ErrorMessage] = "عملیات شارژ محصول با شکست مواجه شد!";
+            
+            TempData[ErrorMessage] = "عملیات عدم موجودی محصول با شکست مواجه شد!";
             return RedirectToPage("./Index");
 
         }
@@ -69,10 +71,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slide
 
             if (result.IsSuccedded)
             {
-                TempData[WarningMessage] = "محصول مورد نظر در انبار خالی شد!";
+                TempData[WarningMessage] = "محصول مورد نظر در انبار موجود شد!";
                 return RedirectToPage("./Index");
             }
-            TempData[ErrorMessage] = "عملیات عدم موجودی محصول با شکست مواجه شد!";
+            TempData[ErrorMessage] = "عملیات شارژ محصول با شکست مواجه شد!";
             return RedirectToPage("./Index");
         }
     }

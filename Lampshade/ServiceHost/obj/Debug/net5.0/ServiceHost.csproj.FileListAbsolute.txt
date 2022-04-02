@@ -176,3 +176,6 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slide\Edit.cshtml.g.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slide\Index.cshtml.g.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_Menu.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs

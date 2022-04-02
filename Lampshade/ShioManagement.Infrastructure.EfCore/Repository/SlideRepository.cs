@@ -30,7 +30,8 @@ namespace ShioManagement.Infrastructure.EfCore.Repository
                 Title=x.Title,
                 BtnText=x.BtnText,
                 IsRemoved=x.IsRemoved,
-                Text=x.Text
+                Text=x.Text,
+                Link=x.Link 
             }).FirstOrDefault(x=>x.Id==id);
         }
 
