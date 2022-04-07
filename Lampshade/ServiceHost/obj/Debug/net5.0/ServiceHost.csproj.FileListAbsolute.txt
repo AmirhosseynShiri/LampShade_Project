@@ -179,3 +179,17 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategory\Default.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrustructure.EfCore.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountMangement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrustructure.EfCore.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\DiscountMangement.Application.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Create.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Edit.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Index.cshtml.g.cs

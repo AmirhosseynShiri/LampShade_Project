@@ -1,4 +1,5 @@
-﻿using _0_FrameWork.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_FrameWork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -40,7 +41,7 @@ namespace ShioManagement.Infrastructure.EfCore.Repository
                 Product = x.Product.Name,
                 Picture = x.Piture,
                 ProductId = x.ProductId,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
                 IsRemoved=x.IsRemoved
             });
 
