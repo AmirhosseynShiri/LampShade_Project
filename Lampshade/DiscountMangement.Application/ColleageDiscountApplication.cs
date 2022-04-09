@@ -10,6 +10,11 @@ namespace DiscountMangement.Application
     {
         private readonly IColleagueDiscountRepository _colleagueDiscountRepository;
 
+        public ColleageDiscountApplication(IColleagueDiscountRepository colleagueDiscountRepository)
+        {
+            _colleagueDiscountRepository = colleagueDiscountRepository;
+        }
+
         public OperationResult Define(DefineColleagueDiscount command)
         {
             var operationResult=new OperationResult();
