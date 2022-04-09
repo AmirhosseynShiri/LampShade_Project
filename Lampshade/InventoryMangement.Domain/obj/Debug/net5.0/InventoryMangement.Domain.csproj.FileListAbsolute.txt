@@ -1,0 +1,17 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\InventoryMangement.Domain.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\InventoryMangement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\InventoryMangement.Domain.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\0_FrameWork.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\0_FrameWork.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.csproj.CoreCompileInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.csproj.CopyComplete
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\refint\InventoryMangement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\InventoryMangement.Domain.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryMangement.Domain\obj\Debug\net5.0\ref\InventoryMangement.Domain.dll
