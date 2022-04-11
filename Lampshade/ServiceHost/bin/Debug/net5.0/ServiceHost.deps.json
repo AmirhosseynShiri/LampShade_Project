@@ -34,6 +34,7 @@
       "ServiceHost/1.0.0": {
         "dependencies": {
           "DiscountManagement.Configuration": "1.0.0",
+          "InventoryManagement.Infrustructure.Configuration": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "ShopManagement.Configuration": "1.0.0",
@@ -1890,6 +1891,56 @@
         },
         "compile": {
           "DiscountMangement.Application.dll": {}
+        }
+      },
+      "InventoryManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_FrameWork": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Application.Contract.dll": {}
+        },
+        "compile": {
+          "InventoryManagement.Application.Contract.dll": {}
+        }
+      },
+      "InventoryManagement.Infrustructure.Configuration/1.0.0": {
+        "dependencies": {
+          "InventoryManagement.Infrustructure.EfCore": "1.0.0",
+          "InventoryMangement.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Infrustructure.Configuration.dll": {}
+        },
+        "compile": {
+          "InventoryManagement.Infrustructure.Configuration.dll": {}
+        }
+      },
+      "InventoryManagement.Infrustructure.EfCore/1.0.0": {
+        "dependencies": {
+          "InventoryMangement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "ShioManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Infrustructure.EfCore.dll": {}
+        },
+        "compile": {
+          "InventoryManagement.Infrustructure.EfCore.dll": {}
+        }
+      },
+      "InventoryMangement.Domain/1.0.0": {
+        "dependencies": {
+          "0_FrameWork": "1.0.0",
+          "InventoryManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "InventoryMangement.Domain.dll": {}
+        },
+        "compile": {
+          "InventoryMangement.Domain.dll": {}
         }
       },
       "ShioManagement.Infrastructure.EfCore/1.0.0": {
@@ -4536,6 +4587,26 @@
       "sha512": ""
     },
     "DiscountMangement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Infrustructure.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Infrustructure.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryMangement.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

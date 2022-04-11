@@ -31,7 +31,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscount
 
         public IActionResult OnGetCreate()
         {
-            var command = new DefineCustomerDiscount
+            var command = new DefineColleagueDiscount
             {
                 Products = _productApplication.GetProducts()
             };
