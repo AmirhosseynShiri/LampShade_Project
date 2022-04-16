@@ -3,11 +3,8 @@ using _0_FrameWork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShioManagement.Infrastructure.EfCore.Repository
 {
@@ -35,8 +32,7 @@ namespace ShioManagement.Infrastructure.EfCore.Repository
                 PictureAlt=x.PictureAlt,
                 PictureTitle=x.PictureTitle,
                 ShortDescription=x.ShortDescription,
-                Slug=x.Slug,
-                UnitPrice=x.UnitPrice
+                Slug=x.Slug
             
             }).FirstOrDefault(x=>x.Id==id);
         }
@@ -58,10 +54,8 @@ namespace ShioManagement.Infrastructure.EfCore.Repository
                 Name = x.Name,
                 Code = x.Code,
                 Picture = x.Picture,
-                UnitPrice = x.UnitPrice,
                 Category = x.Category.Name,
                 CategoryId=x.CategoryId,
-                IsInStock=x.IsInStock,
                 CreationDate=x.CreationDate.ToFarsi()
 
             });

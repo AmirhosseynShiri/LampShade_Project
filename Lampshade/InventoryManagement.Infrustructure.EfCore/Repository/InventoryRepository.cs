@@ -1,4 +1,5 @@
-﻿using _0_FrameWork.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_FrameWork.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryMangement.Domain.InventoryAgg;
 using Microsoft.EntityFrameworkCore;
@@ -37,6 +38,26 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            var inventory = _inventoryContext.Inventory.FirstOrDefault(x => x.Id == inventoryId);
+
+            return inventory.Operations.Select(x => new InventoryOperationViewModel
+            {
+                Id = x.Id,
+                Count=x.Count,
+                CurrentCount=x.CurrentCount,
+                Description=x.Description,
+                Operation=x.Operation,
+                OperationDate=x.OperationDate.ToFarsi(),
+                Operator="مدیر سیستم",
+                OperatorId=x.OperatorId,
+                OrderId=x.OrderId
+
+            }).OrderByDescending(x => x.Id).ToList();
+            
+        }
+
         public List<InventoryViewModel> Search(InventorySearchModel searchModel)
         {
             var products = _shopContext.Products.Select(x => new { x.Id, x.Name }).ToList();
@@ -46,14 +67,15 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
                 InStock=x.InStock,
                 CurrentCount=x.CalculateCurrentCount(),
                 ProductId=x.ProductId,
-                UnirPrice=x.UnitPrice
+                UnirPrice=x.UnitPrice,
+                CreationDate=x.CreationDate.ToFarsi()
 
             });
 
             if(searchModel.ProductId>0)
                 query=query.Where(x=>x.ProductId==searchModel.ProductId);
 
-            if (!searchModel.InStock)
+            if (searchModel.InStock)
                 query = query.Where(x => !x.InStock);
 
             var inventory = query.OrderByDescending(x => x.Id).ToList();

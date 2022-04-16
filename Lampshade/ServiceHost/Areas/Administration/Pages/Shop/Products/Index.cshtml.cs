@@ -58,30 +58,5 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             return new JsonResult(result);
         }
 
-        public IActionResult OnGetInStock(long id)
-        { 
-          var result= _productApplication.InStock(id);
-            if (result.IsSuccedded)
-            {
-                TempData[SuccessMessage] = "محصول مورد نظر در انبار موجود شد!";
-                return RedirectToPage("./Index");
-            }
-            TempData[ErrorMessage] = "عملیات شارژ محصول با شکست مواجه شد!";
-            return RedirectToPage("./Index");
-
-        }
-
-        public IActionResult OnGetNotInStock(long id)
-        {
-            var result = _productApplication.NotInStock(id);
-
-            if (result.IsSuccedded)
-            {
-                TempData[WarningMessage] = "محصول مورد نظر در انبار خالی شد!";
-                return RedirectToPage("./Index");
-            }
-            TempData[ErrorMessage] = "عملیات عدم موجودی محصول با شکست مواجه شد!";
-            return RedirectToPage("./Index");
-        }
     }
 }

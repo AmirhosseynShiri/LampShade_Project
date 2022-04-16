@@ -513,6 +513,9 @@
             "projectReferences": {
               "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\0_FrameWork\\0_FrameWork.csproj": {
                 "projectPath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\0_FrameWork\\0_FrameWork.csproj"
+              },
+              "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
