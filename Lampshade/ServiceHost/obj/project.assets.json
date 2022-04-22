@@ -2006,6 +2006,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "DiscountManagement.Infrustructure.EfCore": "1.0.0",
+          "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "ShioManagement.Infrastructure.EfCore": "1.0.0"
         },
         "compile": {
@@ -7538,7 +7540,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

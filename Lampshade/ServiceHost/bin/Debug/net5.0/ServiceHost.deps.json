@@ -1808,6 +1808,8 @@
       },
       "01_LampshadeQuery/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrustructure.EfCore": "1.0.0",
+          "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "ShioManagement.Infrastructure.EfCore": "1.0.0"
         },
         "runtime": {
