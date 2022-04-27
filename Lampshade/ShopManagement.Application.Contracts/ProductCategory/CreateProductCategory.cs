@@ -1,4 +1,5 @@
 ﻿using _0_FrameWork.Application;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -15,7 +16,9 @@ namespace ShopManagement.Application.Contracts.ProductCategory
 
         public string Description { get;  set; }
 
-        public string Picture { get;  set; }
+        [MaxFileSize(3*1024*1024, ErrorMessage =ValidationMessages.MaxFileSize)]
+        [FileExtentionLimitation(new string[] { ".jpeg", "png", ".jpg" },ErrorMessage =ValidationMessages.InvalidFileFormat)]
+        public IFormFile Picture { get;  set; }
 
         public string PictureAlt { get;  set; }
 
