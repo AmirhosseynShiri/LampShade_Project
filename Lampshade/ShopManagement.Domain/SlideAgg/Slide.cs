@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.SlideAgg
 {
-    public class Slide:EntityBase
+    public class Slide : EntityBase
     {
-        public string Picture { get;private set; }
+        public string Picture { get; private set; }
         public string PictureAlt { get; private set; }
         public string PictureTitle { get; private set; }
         public string Heading { get; private set; }
@@ -20,7 +20,7 @@ namespace ShopManagement.Domain.SlideAgg
         public bool IsRemoved { get; private set; }
 
         public Slide(string picture, string pictureAlt, string pictureTitle, string heading,
-            string title, string text,string btnText, string link)
+            string title, string text, string btnText, string link)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -36,7 +36,9 @@ namespace ShopManagement.Domain.SlideAgg
         public void Edit(string picture, string pictureAlt, string pictureTitle, string heading,
             string title, string text, string btnText, string link)
         {
-            Picture = picture;
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Heading = heading;
@@ -48,7 +50,7 @@ namespace ShopManagement.Domain.SlideAgg
 
         public void Remove()
         {
-            IsRemoved=true;
+            IsRemoved = true;
         }
 
         public void Restore()
