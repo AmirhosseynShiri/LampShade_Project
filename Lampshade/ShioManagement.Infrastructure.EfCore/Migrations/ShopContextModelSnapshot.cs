@@ -148,6 +148,11 @@ namespace ShioManagement.Infrastructure.EfCore.Migrations
                     b.Property<bool>("IsRemoved")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Picture")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
                     b.Property<string>("PictureAlt")
                         .IsRequired()
                         .HasMaxLength(500)
@@ -157,11 +162,6 @@ namespace ShioManagement.Infrastructure.EfCore.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
-
-                    b.Property<string>("Piture")
-                        .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<long>("ProductId")
                         .HasColumnType("bigint");

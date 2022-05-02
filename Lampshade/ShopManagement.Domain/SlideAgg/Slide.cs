@@ -29,7 +29,7 @@ namespace ShopManagement.Domain.SlideAgg
             Title = title;
             Text = text;
             BtnText = btnText;
-            link = link;
+            Link = link;
             IsRemoved = false;
         }
 
@@ -45,7 +45,7 @@ namespace ShopManagement.Domain.SlideAgg
             Title = title;
             Text = text;
             BtnText = btnText;
-            link = link;
+            Link = link;
         }
 
         public void Remove()

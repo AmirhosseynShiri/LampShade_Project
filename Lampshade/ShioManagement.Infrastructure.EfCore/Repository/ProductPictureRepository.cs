@@ -45,7 +45,7 @@ namespace ShioManagement.Infrastructure.EfCore.Repository
             {
                 Id = x.Id,
                 Product = x.Product.Name,
-                Picture = x.Piture,
+                Picture = x.Picture,
                 ProductId = x.ProductId,
                 CreationDate = x.CreationDate.ToFarsi(),
                 IsRemoved=x.IsRemoved
