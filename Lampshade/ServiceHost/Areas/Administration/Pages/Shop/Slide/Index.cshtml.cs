@@ -1,9 +1,4 @@
-﻿using _0_FrameWork.Application;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using ShopManagement.Application.Contracts.Product;
-using ShopManagement.Application.Contracts.ProductPicture;
+﻿using Microsoft.AspNetCore.Mvc;
 using ShopManagement.Application.Contracts.Slide;
 using System.Collections.Generic;
 
