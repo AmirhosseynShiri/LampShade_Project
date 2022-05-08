@@ -1,0 +1,17 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\0_FrameWork.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\BlogMangement.Application.Contracts.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\0_FrameWork.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\bin\Debug\net5.0\BlogMangement.Application.Contracts.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CopyComplete
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\refint\BlogManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Domain\obj\Debug\net5.0\ref\BlogManagement.Domain.dll

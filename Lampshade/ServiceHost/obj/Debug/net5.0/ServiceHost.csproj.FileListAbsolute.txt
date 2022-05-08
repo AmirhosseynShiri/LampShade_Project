@@ -224,3 +224,16 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\System.I
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Comments\Index.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EfCore.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogMangement.Application.Contracts.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EfCore.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\bin\Debug\net5.0\BlogMangement.Application.Contracts.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Create.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Edit.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Index.cshtml.g.cs
