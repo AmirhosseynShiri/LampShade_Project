@@ -35,7 +35,7 @@ namespace BlogManagement.Application
             var pictureName = _fileUploader.Upload(command.Picture, path);
 
             var article = new Article(command.Title,command.ShortDescription,
-                pictureName,command.Description,command.PictureAlt,command.PictureTitle
+                command.Description, pictureName, command.PictureAlt,command.PictureTitle
                 ,publishDate,slug,command.Keywords,command.MetaDescription
                 ,command.CanonicalAddress,command.CategoryId);
 
@@ -61,15 +61,12 @@ namespace BlogManagement.Application
             var pictureName = _fileUploader.Upload(command.Picture, path);
 
             article.Edit(command.Title, command.ShortDescription,
-                pictureName, command.Description, command.PictureAlt, command.PictureTitle
+                command.Description, pictureName, command.PictureAlt, command.PictureTitle
                 , publishDate, slug, command.Keywords, command.MetaDescription
                 , command.CanonicalAddress, command.CategoryId);
 
             _articleRepository.SaveChanges();
             return operation.Succedded();
-
-
-
 
         }
 

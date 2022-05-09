@@ -50,7 +50,7 @@ namespace BlogManagement.Infrastructure.EfCore.Repository
                 Picture=x.Picture,
                 PublishDate=x.PublishDate.ToFarsi(),
                 ShortDescription=x.ShortDescription,
-                CategoryId=x.CategoryId
+                CategoryId=x.CategoryId,
             });
 
             if(!string.IsNullOrWhiteSpace( searchModel.Title))
