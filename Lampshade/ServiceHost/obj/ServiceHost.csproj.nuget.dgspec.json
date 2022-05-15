@@ -32,6 +32,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+              },
               "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\DiscountManagement.Infrustructure.EfCore\\DiscountManagement.Infrustructure.EfCore.csproj": {
                 "projectPath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\DiscountManagement.Infrustructure.EfCore\\DiscountManagement.Infrustructure.EfCore.csproj"
               },
@@ -302,6 +305,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              },
               "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },

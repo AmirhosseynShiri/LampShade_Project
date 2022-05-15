@@ -1580,6 +1580,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "BlogManagement.Infrastructure.EfCore": "1.0.0",
           "DiscountManagement.Infrustructure.EfCore": "1.0.0",
           "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "ShioManagement.Infrastructure.EfCore": "1.0.0"
@@ -1604,6 +1605,48 @@
         },
         "runtime": {
           "bin/placeholder/0_FrameWork.dll": {}
+        }
+      },
+      "BlogManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_FrameWork": "1.0.0",
+          "BlogMangement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infrastructure.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Infrastructure.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "BlogMangement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_FrameWork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogMangement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogMangement.Application.Contracts.dll": {}
         }
       },
       "DiscountManagement.Application.Contract/1.0.0": {
@@ -6123,6 +6166,21 @@
       "type": "project",
       "path": "../0_FrameWork/0_FrameWork.csproj",
       "msbuildProject": "../0_FrameWork/0_FrameWork.csproj"
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Domain/BlogManagement.Domain.csproj",
+      "msbuildProject": "../BlogManagement.Domain/BlogManagement.Domain.csproj"
+    },
+    "BlogManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Infrastructure.EfCore/BlogManagement.Infrastructure.EfCore.csproj",
+      "msbuildProject": "../BlogManagement.Infrastructure.EfCore/BlogManagement.Infrastructure.EfCore.csproj"
+    },
+    "BlogMangement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BlogMangement.Application.Contracts/BlogMangement.Application.Contracts.csproj",
+      "msbuildProject": "../BlogMangement.Application.Contracts/BlogMangement.Application.Contracts.csproj"
     },
     "DiscountManagement.Application.Contract/1.0.0": {
       "type": "project",

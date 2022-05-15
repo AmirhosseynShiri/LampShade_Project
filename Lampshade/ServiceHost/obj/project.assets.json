@@ -2088,6 +2088,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "BlogManagement.Infrastructure.EfCore": "1.0.0",
           "DiscountManagement.Infrustructure.EfCore": "1.0.0",
           "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "ShioManagement.Infrastructure.EfCore": "1.0.0"
@@ -2146,6 +2147,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "01_LampshadeQuery": "1.0.0",
           "BlogManagement.Application": "1.0.0",
           "BlogManagement.Infrastructure.EfCore": "1.0.0",
           "BlogMangement.Application.Contracts": "1.0.0",

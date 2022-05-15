@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "01_LampshadeQuery/1.0.0": {
         "dependencies": {
+          "BlogManagement.Infrastructure.EfCore": "1.0.0",
           "DiscountManagement.Infrustructure.EfCore": "1.0.0",
           "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "ShioManagement.Infrastructure.EfCore": "1.0.0"
@@ -1120,6 +1121,33 @@
           "0_FrameWork.dll": {}
         }
       },
+      "BlogManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_FrameWork": "1.0.0",
+          "BlogMangement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infrastructure.EfCore/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15"
+        },
+        "runtime": {
+          "BlogManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "BlogMangement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_FrameWork": "1.0.0"
+        },
+        "runtime": {
+          "BlogMangement.Application.Contracts.dll": {}
+        }
+      },
       "DiscountManagement.Application.Contract/1.0.0": {
         "dependencies": {
           "0_FrameWork": "1.0.0",
@@ -1929,6 +1957,21 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "0_FrameWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogMangement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
