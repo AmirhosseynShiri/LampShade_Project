@@ -1,7 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductModel
 @{
-    ViewData["Title"] = "جرییات محصول";
+    ViewData["Title"] = @Model.Product.Name;
+    ViewData["keywords"] = @Model.Product.Keywords;
+    ViewData["metaDescription"] = @Model.Product.MetaDescription;
 }
 
     <div class="breadcrumb-area section-space--half">
@@ -12,7 +14,7 @@
                     <div class="breadcrumb-wrapper breadcrumb-bg">
                         <!--=======  breadcrumb content  =======-->
                         <div class="breadcrumb-content">
-                            <h2 class="breadcrumb-content__title">@Model.Product.Name</h2>
+                            <h1 class="breadcrumb-content__title">@Model.Product.Name</h1>
                             <ul class="breadcrumb-content__page-map">
                                 <li>
                                     <a asp-page=./Index >صفحه اصلی</a>
@@ -291,7 +293,7 @@
                                                                         <textarea name="Message" id="Message"
                                                                             placeholder="لطفا نظر خود را بنویسید"></textarea>
                                                                     </div>
-                                                                    <input type="hidden" name="ProductId" value="@Model.Product.Id" />
+                                                                    <input type="hidden" name="OwnerRecordId" value="@Model.Product.Id" />
                                                                     <input type="hidden" name="ProductSlug" value="@Model.Product.Slug" />
                                                                     <div class="col-12">
                                                                         <input value="ارسال نظر" type="submit">

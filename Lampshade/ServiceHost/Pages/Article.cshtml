@@ -1,7 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleModel
 @{
-    ViewData["Title"] = "صفحه مقاله";
+    ViewData["Title"] = @Model.Article.Title;
+    ViewData["keywords"] = @Model.Article.Keywords;
+    ViewData["metaDescription"] = @Model.Article.MetaDescription;
 }
 
 <div class="breadcrumb-area section-space--half">
@@ -10,7 +12,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb-wrapper breadcrumb-bg">
                     <div class="breadcrumb-content">
-                        <h2 class="breadcrumb-content__title">@Model.Article.Title</h2>
+                        <h1 class="breadcrumb-content__title">@Model.Article.Title</h1>
                         <ul class="breadcrumb-content__page-map">
                             <li>
                                 <a href="/">خانه</a>
@@ -43,7 +45,7 @@
                                         <!--=======  post title  =======-->
 
 
-                                        <h3 class="post-title">@Model.Article.Title</h3>
+                                        <h2 class="post-title">@Model.Article.Title</h2>
 
                                         <!--=======  End of post title  =======-->
                                         <!--=======  Post meta  =======-->
@@ -122,140 +124,85 @@
                                     =============================================-->
 
                                     <div class="comment-section">
-                                        <h3 class="comment-counter">4 COMMENTS</h3>
-
-                                        <!--=======  comment container  =======-->
-
+                                        <h3 class="comment-counter">نظرات (@Model.Article.Comments.Count) </h3>
                                         <div class="comment-container">
-                                            <!--=======  single comment  =======-->
+                                            @foreach (var comment in Model.Article.Comments)
+                                            {
+                                                <div class="single-comment" id="comment-@comment.Id">
+                                                    <span class="reply-btn">
+                                                        <a href="#postComment" onclick='$("#commentParentId").val(@comment.Id)'>پاسخ</a>
+                                                    </span>
 
-                                            <div class="single-comment">
-                                                <span class="reply-btn">
-                                                    <a href="#">Reply</a>
-                                                </span>
+                                                    <div class="image">
+                                                        <img src="~/Theme/assets/img/blog/comment-icon.png" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="user">
+                                                            @comment.Name <span class="comment-time">
+                                                                @comment.CreationDate
+                                                            </span>
+                                                        </h3>
+                                                        @if (comment.ParentId > 0)
+                                                        {
+                                                            <p class="user">
+                                                                <span>در پاسخ به:</span> <a href="#comment-@comment.ParentId">@comment.ParentName</a>
+                                                            </p>
+                                                        }
+                                                        <p class="comment-text">
+                                                            @comment.Message
+                                                        </p>
+                                                    </div>
 
-                                                <div class="image">
-                                                    <img src="assets/img/blog/comment-icon.png" alt="">
                                                 </div>
-                                                <div class="content">
-                                                    <h3 class="user">
-                                                        admin <span class="comment-time">
-                                                            April 28, 2019
-                                                            at 3:09 am
-                                                        </span>
-                                                    </h3>
-                                                    <p class="comment-text">
-                                                        Lorem ipsum dolor sit amet consectetur
-                                                        adipisicing elit. Sint quia rem dolorem et rerum est
-                                                        laudantium eum dolores omnis perspiciatis.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-
-                                            <!--=======  End of single comment  =======-->
-                                            <!--=======  single reply comment  =======-->
-
-                                            <div class="single-comment reply-comment">
-                                                <span class="reply-btn">
-                                                    <a href="#">Reply</a>
-                                                </span>
-
-                                                <div class="image">
-                                                    <img src="assets/img/blog/comment-icon.png" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="user">
-                                                        admin <span class="comment-time">
-                                                            April 28, 2019
-                                                            at 3:09 am
-                                                        </span>
-                                                    </h3>
-                                                    <p class="comment-text">
-                                                        Lorem ipsum dolor sit amet consectetur
-                                                        adipisicing elit. Sint quia rem dolorem et rerum est
-                                                        laudantium eum dolores omnis perspiciatis.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-
-                                            <!--=======  End of single reply comment  =======-->
-                                            <!--=======  single comment  =======-->
-
-                                            <div class="single-comment">
-                                                <span class="reply-btn">
-                                                    <a href="#">Reply</a>
-                                                </span>
-
-                                                <div class="image">
-                                                    <img src="assets/img/blog/comment-icon.png" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="user">
-                                                        admin <span class="comment-time">
-                                                            April 28, 2019
-                                                            at 3:09 am
-                                                        </span>
-                                                    </h3>
-                                                    <p class="comment-text">
-                                                        Lorem ipsum dolor sit amet consectetur
-                                                        adipisicing elit. Sint quia rem dolorem et rerum est
-                                                        laudantium eum dolores omnis perspiciatis.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-
-                                            <!--=======  End of single comment  =======-->
-
-
+                                            }
                                         </div>
 
                                         <!--=======  End of comment container  =======-->
                                         <!--=======  comment form container  =======-->
 
                                         <div class="comment-form-container">
-                                            <h3 class="comment-form-title">LEAVE A REPLY</h3>
+                                            <h3 class="comment-form-title">لطفا نظر خود را با ما در اشتراک بگذارید</h3>
                                             <p>
-                                                Your email address will not be published. Required fields are marked
-                                                *
+                                                ایمیل شما بصورت محرمانه است و به دیگران نمایش داده نمی شود!
                                             </p>
 
                                             <!--=======  comment form  =======-->
 
-                                            <div class="comment-form">
-                                                <form action="#">
+                                            <div class="comment-form" id="postComment">
+                                                <form method="post">
                                                     <div class="row">
                                                         <div class="col-lg-12">
                                                             <div class="form-group">
-                                                                <label>Comment</label>
-                                                                <textarea name="commentMessage"
-                                                                          id="commentMessage"></textarea>
+                                                                <label>نظر</label>
+                                                                <textarea name="message"
+                                                                          id="message" placeholder="لطفا نظر خود را بنویسید"></textarea>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="form-group">
-                                                                <label>Name <span class="required">*</span></label>
-                                                                <input type="text" name="commenterName">
+                                                                <label>نام  <span class="required">*</span></label>
+                                                                <input type="text" name="name" id="name" placeholder="مثال:جمشید رحیمی">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="form-group">
-                                                                <label>Email <span class="required">*</span></label>
-                                                                <input type="text" name="commenterEmail">
+                                                                <label>ایمیل <span class="required">*</span></label>
+                                                                <input type="text" name="email" placeholder="مثال:test@gmail.com">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="form-group">
-                                                                <label>Website</label>
-                                                                <input type="text" name="commenterWebsite">
+                                                                <label>وبسایت</label>
+                                                                <input type="text" name="website" placeholder="مثال:Lamshade.com">
                                                             </div>
                                                         </div>
+                                                        <input type="hidden" name="ownerRecordId" value="@Model.Article.Id" />
+                                                        <input type="hidden" name="articleSlug" value="@Model.Article.Slug" />
+                                                        <input type="hidden" name="ParentId" id="commentParentId" value="" />
                                                         <div class="col-lg-12">
                                                             <button type="submit" class="comment-btn"
                                                                     name="submit">
-                                                                post comment
+                                                                ارسال نظر
                                                             </button>
                                                         </div>
                                                     </div>
@@ -297,7 +244,7 @@
 
                                     <div class="single-sidebar-widget">
 
-                                        <h4 class="single-sidebar-widget__title">آخرین مقالات</h4>
+                                        <h3 class="single-sidebar-widget__title">آخرین مقالات</h3>
                                         <div class="block-container">
                                             @foreach (var article in Model.LatestArticles)
                                             {
@@ -321,8 +268,6 @@
 
                                         </div>
                                     </div>
-                                    <!--=======  End of single sidebar widget  =======-->
-                                    <!--=======  single sidebar widget  =======-->
                                     <div class="single-sidebar-widget">
                                         <h4 class="single-sidebar-widget__title">Popular Tags</h4>
                                         <ul class="single-sidebar-widget__tag-list">
@@ -334,14 +279,11 @@
                                             }
                                         </ul>
                                     </div>
-                                    <!--=======  End of single sidebar widget  =======-->
                                 </div>
-                                <!--=======  End of page sidebar wrapper  =======-->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--=======  End of page wrapper  =======-->
             </div>
         </div>
     </div>

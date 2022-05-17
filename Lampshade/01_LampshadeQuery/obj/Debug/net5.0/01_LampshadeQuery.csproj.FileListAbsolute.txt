@@ -37,3 +37,9 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\Bl
 E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EfCore.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogMangement.Application.Contracts.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EfCore.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EfCore.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

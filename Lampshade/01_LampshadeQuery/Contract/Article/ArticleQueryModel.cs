@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using _01_LampshadeQuery.Contract.Comment;
+using System.Collections.Generic;
 
 namespace _01_LampshadeQuery.Contract.Article
 {
     public class ArticleQueryModel
     {
+        public long Id { get; set; }
         public string Title { get; set; }
         public string ShortDescription { get; set; }
         public string Description { get; set; }
@@ -19,5 +21,6 @@ namespace _01_LampshadeQuery.Contract.Article
         public long CategoryId { get; set; }
         public string Category { get; set; }
         public string CategorySlug { get; set; }
+        public List<CommentQueryModel> Comments { get; set; }
     }
 }
