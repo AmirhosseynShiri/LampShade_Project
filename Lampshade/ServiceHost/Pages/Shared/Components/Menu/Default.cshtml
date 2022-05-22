@@ -1,5 +1,7 @@
 ﻿@using _01_LampshadeQuery
+@using _0_FrameWork.Application
 @model MenuModel
+@inject IAuthHelper AuthHelper
 @{
 }
 
@@ -51,6 +53,19 @@
                                 <li>
                                     <a href="contact.html">تماس با ما</a>
                                 </li>
+                                @if (AuthHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a asp-page="./Account" asp-page-handler="Logout">خروج</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-page="./Account">ورود/ثبت نام</a>
+                                    </li>
+                                }
+
                             </ul>
                         </nav>
                     </div>
@@ -275,6 +290,19 @@
                     <li class="menu-item-has-children">
                         <a asp-page="./Contact">تماس با ما</a>
                     </li>
+
+                    @if (AuthHelper.IsAuthenticated())
+                    {
+                        <li>
+                            <a asp-page="./Account" asp-page-handler="Logout">خروج</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a asp-page="./Account">ورود/ثبت نام</a>
+                        </li>
+                    }
 
                 </ul>
             </nav>

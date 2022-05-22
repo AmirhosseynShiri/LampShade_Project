@@ -1,0 +1,15 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\bin\Debug\net5.0\AccountManagement.Appllication.Contract.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\bin\Debug\net5.0\AccountManagement.Appllication.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\bin\Debug\net5.0\AccountManagement.Appllication.Contract.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\bin\Debug\net5.0\0_FrameWork.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\bin\Debug\net5.0\0_FrameWork.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.csproj.CoreCompileInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.csproj.CopyComplete
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\refint\AccountManagement.Appllication.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\AccountManagement.Appllication.Contract.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Appllication.Contract\obj\Debug\net5.0\ref\AccountManagement.Appllication.Contract.dll

@@ -2,7 +2,6 @@
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using ServiceHost.Areas.Administration.Pages.Shop;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
 

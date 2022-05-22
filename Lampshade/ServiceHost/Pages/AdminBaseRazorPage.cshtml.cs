@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ServiceHost.Areas.Administration.Pages.Shop
+namespace ServiceHost.Pages
 {
     public abstract class AdminBaseRazorPageModel : PageModel
     {

@@ -1,7 +1,5 @@
 ﻿using CommentManagement.Application.Contract.Comment;
 using Microsoft.AspNetCore.Mvc;
-using ServiceHost.Areas.Administration.Pages.Shop;
-using ShopManagement.Application.Contracts.Slide;
 using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Comments
