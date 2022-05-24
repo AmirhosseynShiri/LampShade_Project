@@ -271,4 +271,6 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Index.cshtml.g.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Account.cshtml.g.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\AdminBaseRazorPage.cshtml.g.cs
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\AdminBaseRazorPage.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\BaseRazorPage.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_SiteMessages.cshtml.g.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs

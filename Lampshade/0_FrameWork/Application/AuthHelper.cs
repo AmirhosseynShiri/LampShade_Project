@@ -18,6 +18,21 @@ namespace _0_Framework.Application
             _contextAccessor = contextAccessor;
         }
 
+        public AuthViewModel CurrentAccountInfo()
+        {
+            var result = new AuthViewModel();
+            if(!IsAuthenticated())
+                return result;
+
+            var claim = _contextAccessor.HttpContext.User.Claims.ToList();
+            result.Id = long.Parse(claim.FirstOrDefault(x => x.Type == "AccountId").Value);
+            result.Username = claim.FirstOrDefault(x => x.Type == "Username").Value;
+            result.Fullname=claim.FirstOrDefault(x => x.Type ==ClaimTypes.Name).Value;
+            result.RoleId = long.Parse( claim.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
+            result.Role = Roles.GetRoleBy(result.RoleId);
+            return result;
+        }
+
         //public AuthViewModel CurrentAccountInfo()
         //{
         //    var result = new AuthViewModel();
@@ -43,25 +58,26 @@ namespace _0_Framework.Application
         //    return JsonConvert.DeserializeObject<List<int>>(permissions);
         //}
 
-        public long CurrentAccountId()
-        {
-            return IsAuthenticated()
-                ? long.Parse(_contextAccessor.HttpContext.User.Claims.First(x => x.Type == "AccountId")?.Value)
-                : 0;
-        }
+        //public long CurrentAccountId()
+        //{
+        //    return IsAuthenticated()
+        //        ? long.Parse(_contextAccessor.HttpContext.User.Claims.First(x => x.Type == "AccountId")?.Value)
+        //        : 0;
+        //}
 
-        public string CurrentAccountMobile()
-        {
-            return IsAuthenticated()
-                ? _contextAccessor.HttpContext.User.Claims.First(x => x.Type == "Mobile")?.Value
-                : "";
-        }
+        //public string CurrentAccountMobile()
+        //{
+        //    return IsAuthenticated()
+        //        ? _contextAccessor.HttpContext.User.Claims.First(x => x.Type == "Mobile")?.Value
+        //        : "";
+        //}
 
         public string CurrentAccountRole()
         {
             if (IsAuthenticated())
-                return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role)?.Value;
-            return null;
+                return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value;
+
+            return null;     
         }
 
         public bool IsAuthenticated()
@@ -81,7 +97,7 @@ namespace _0_Framework.Application
             {
                 new Claim("AccountId", account.Id.ToString()),
                 new Claim(ClaimTypes.Name, account.Fullname),
-                new Claim(ClaimTypes.Role, account.RoleId.ToString()),
+                new Claim(ClaimTypes.Role,account.RoleId.ToString()),
                 new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
                 new Claim("Mobile", account.Mobile)
             };

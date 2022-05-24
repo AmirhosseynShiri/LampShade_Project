@@ -42,7 +42,7 @@ namespace AccountManagement.Application
 
         }
 
-        public OperationResult Create(CreateAccount command)
+        public OperationResult Register(RegisterAccount command)
         {
             var operationResult = new OperationResult();
             if (_accountRepository.Exists(x => x.UserName == command.UserName || x.Mobile == command.Mobile))
@@ -96,7 +96,7 @@ namespace AccountManagement.Application
             if (!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
-            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.FullName,
+            var authViewModel = new AuthViewModel(account.Id,account.RoleId, account.FullName,
                 account.UserName, account.Mobile);
             _authHelper.SignIn(authViewModel);
 

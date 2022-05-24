@@ -13,6 +13,7 @@ namespace AccountManagement.Infrastructure.EfCore.Mapping
 
             builder.Property(x=>x.Name).HasMaxLength(100).IsRequired();
 
+
         }
     }
 }

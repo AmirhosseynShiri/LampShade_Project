@@ -1,5 +1,7 @@
 ﻿
+using _0_FrameWork.Application;
 using InventoryManagement.Application.Contract.Inventory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
@@ -7,6 +9,7 @@ using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Inventory
 {
+    [Authorize(Roles =Roles.Administration)]
     public class IndexModel : AdminBaseRazorPageModel
     {
         public List<InventoryViewModel> Inventory;

@@ -65,7 +65,7 @@
                                 </form>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-                                <form action="#">
+                                <form method="post" asp-page-handler=Register>
 
                                     <div class="login-form">
                                         <h4 class="login-title">ثبت نام</h4>
@@ -73,26 +73,26 @@
                                         <div class="row">
                                             <div class="col-md-6 col-12 mb-20">
                                                 <label>نام و نام خانوادگی</label>
-                                                <input type="text" placeholder="نام و نام خانوادگی">
+                                                <input type="text" name="Fullname" placeholder="نام و نام خانوادگی">
                                             </div>
                                             <div class="col-md-6 col-12 mb-20">
                                                 <label>نام کاربری</label>
-                                                <input type="text" placeholder="نام کاربری">
+                                                <input type="text" name="Username" placeholder="نام کاربری">
                                             </div>
                                             <div class="col-md-12 mb-20">
                                                 <label>موبایل*</label>
-                                                <input type="number" placeholder="موبایل">
+                                                <input type="number" name="Mobile" placeholder="موبایل">
                                             </div>
                                             <div class="col-md-6 mb-20">
                                                 <label>کلمه عبور</label>
-                                                <input type="password" placeholder="کلمه عبور">
+                                                <input type="password" name="Password" placeholder="کلمه عبور">
                                             </div>
                                             <div class="col-md-6 mb-20">
                                                 <label>تکرار کلمه عبور</label>
-                                                <input type="password" placeholder="تکرار کلمه عبور">
+                                                <input type="password" name="Repassword" placeholder="تکرار کلمه عبور">
                                             </div>
                                             <div class="col-12">
-                                                <button class="register-button mt-0">ثبت نام</button>
+                                                <button type="submit" class="register-button mt-0">ثبت نام</button>
                                             </div>
                                         </div>
                                     </div>

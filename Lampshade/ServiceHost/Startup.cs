@@ -38,15 +38,14 @@ namespace ServiceHost
             ShopManagementBootstrapper.Configure(services, connectionString);
             DiscountManagementBootstrapper.Configure(services, connectionString);
             InventoryManagementBootstrapper.Configure(services, connectionString);
-            BlogManagementBootstrapper.Configure(services,connectionString);
-            CommentManagementBootstrapper.Configure(services,connectionString);
-            AccountManagementBootstrapper.Configure(services,connectionString);
+            BlogManagementBootstrapper.Configure(services, connectionString);
+            CommentManagementBootstrapper.Configure(services, connectionString);
+            AccountManagementBootstrapper.Configure(services, connectionString);
 
             services.AddHttpContextAccessor();
-            services.AddTransient<IFileUploader,FileUploader>();
-            services.AddSingleton<IPasswordHasher,PasswordHasher>();
-            services.AddTransient<IAuthHelper,AuthHelper>();
-            services.AddRazorPages();
+            services.AddTransient<IFileUploader, FileUploader>();
+            services.AddSingleton<IPasswordHasher, PasswordHasher>();
+            services.AddTransient<IAuthHelper, AuthHelper>();
 
             #region CookieAuth Service
             services.Configure<CookiePolicyOptions>(options =>
@@ -65,9 +64,47 @@ namespace ServiceHost
 
             #endregion
 
+            #region policy & Authorize
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminArea", builder =>
+                 builder.RequireRole(new List<string>
+                 { Roles.Administration, Roles.ContentUploader }));
+
+                options.AddPolicy("ShopAccess", builder =>
+                 builder.RequireRole(new List<string> { Roles.Administration }));
+
+                options.AddPolicy("DiscountAccess", builder =>
+                 builder.RequireRole(new List<string> { Roles.Administration }));
+
+                options.AddPolicy("AccountAccess", builder =>
+                 builder.RequireRole(new List<string> { Roles.Administration }));
+
+            });
+
+
+
+            services.AddRazorPages().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+
+                options.Conventions.AuthorizeAreaFolder("Administration", "/shop", "ShopAccess");
+
+                options.Conventions.AuthorizeAreaFolder("Administration", "/discounts", "discountAccess");
+
+                options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "AccountAccess");
+
+            }
+            );
+
+            #endregion
+
+
             #region html encoder
 
-            services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.BasicLatin, UnicodeRanges.Arabic }));
+            services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.BasicLatin, UnicodeRanges.Arabic
+    }));
 
             #endregion
         }
@@ -91,7 +128,7 @@ namespace ServiceHost
             app.UseRouting();
 
             app.UseAuthorization();
-            
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

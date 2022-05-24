@@ -1,9 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages
 {
-    public abstract class AdminBaseRazorPageModel : PageModel
+    public abstract class BaseRazorPageModel : PageModel
     {
         protected string SuccessMessage = "SuccessMessage";
         protected string ErrorMessage = "ErrorMessage";

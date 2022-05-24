@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages
 {
-    public class AccountModel : AdminBaseRazorPageModel
+    public class AccountModel : PageModel
     {
+        protected string SuccessMessage = "SuccessMessage";
+        protected string ErrorMessage = "ErrorMessage";
         private readonly IAccountApplication _accountApplication;
 
         public AccountModel(IAccountApplication accountApplication)
@@ -34,6 +36,12 @@ namespace ServiceHost.Pages
         {
             _accountApplication.Logout();
             return RedirectToPage("/Index");
+        }
+
+        public IActionResult OnPostRegister(RegisterAccount command)
+        {
+           var resulr= _accountApplication.Register(command);
+            return RedirectToPage("/Account");
         }
     }
 }
