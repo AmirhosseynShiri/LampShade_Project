@@ -1,9 +1,5 @@
 ﻿using _0_FrameWork.Infrastructure;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Configuration.Permissions
 {
@@ -15,18 +11,18 @@ namespace ShopManagement.Configuration.Permissions
             {
                 {"Product",new List<PermissionDto>
                   {
-                    new PermissionDto(10,"ListProducts"),
-                    new PermissionDto(11,"SearchProducts"),
-                    new PermissionDto(12,"CreateProduct"),
-                    new PermissionDto(13,"EditProduct"),
+                    new PermissionDto(ShopPermissions.ListProducts,"ListProducts"),
+                    new PermissionDto(ShopPermissions.SearchProducts,"SearchProducts"),
+                    new PermissionDto(ShopPermissions.CreateProduct,"CreateProduct"),
+                    new PermissionDto(ShopPermissions.EditProduct,"EditProduct"),
                    }
                 },
                 {"ProductCateory",new List<PermissionDto>
                   {
-                    new PermissionDto(20,"ListProductCategories"),
-                    new PermissionDto(21,"SearchProductCateories"),
-                    new PermissionDto(22,"CreateProductCateory"),
-                    new PermissionDto(23,"EditProductCateory"),
+                    new PermissionDto(ShopPermissions.ListProductCategories,"ListProductCategories"),
+                    new PermissionDto(ShopPermissions.SearchProductCategories,"SearchProductCateories"),
+                    new PermissionDto(ShopPermissions.CreateProductCategory,"CreateProductCategory"),
+                    new PermissionDto(ShopPermissions.EditProductCategory,"EditProductCategory"),
                    }
                 }
 

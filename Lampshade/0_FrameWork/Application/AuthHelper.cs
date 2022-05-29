@@ -6,6 +6,7 @@ using _0_FrameWork.Application;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace _0_Framework.Application
 {
@@ -32,21 +33,6 @@ namespace _0_Framework.Application
             result.Role = Roles.GetRoleBy(result.RoleId);
             return result;
         }
-
-        //public AuthViewModel CurrentAccountInfo()
-        //{
-        //    var result = new AuthViewModel();
-        //    if (!IsAuthenticated())
-        //        return result;
-
-        //    var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-        //    result.Id = long.Parse(claims.FirstOrDefault(x => x.Type == "AccountId").Value);
-        //    result.Username = claims.FirstOrDefault(x => x.Type == "Username").Value;
-        //    result.RoleId = long.Parse(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
-        //    result.Fullname = claims.FirstOrDefault(x => x.Type == ClaimTypes.Name).Value;
-        //    result.Role = Roles.GetRoleBy(result.RoleId);
-        //    return result;
-        //}
 
         //public List<int> GetPermissions()
         //{
@@ -80,26 +66,37 @@ namespace _0_Framework.Application
             return null;     
         }
 
+        public List<int> GetPermissions()
+        {
+            if (!IsAuthenticated())
+                return new List<int>();
+            var permissiions = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "Permissions")
+                ?.Value;
+
+            return JsonConvert.DeserializeObject<List<int>>(permissiions);
+        }
+
         public bool IsAuthenticated()
         {
-            //return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
-            var claims = _contextAccessor.HttpContext.User.Claims.ToList();
+            return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
+            //var claims = _contextAccessor.HttpContext.User.Claims.ToList();
             ////if (claims.Count > 0)
             ////    return true;
             ////return false;
-            return claims.Count > 0;
+            //return claims.Count > 0;
         }
 
         public void SignIn(AuthViewModel account)
         {
-            //var permissions = JsonConvert.SerializeObject(account.Permissions);
+            var permission = JsonConvert.SerializeObject(account.Permission);
             var claims = new List<Claim>
             {
                 new Claim("AccountId", account.Id.ToString()),
                 new Claim(ClaimTypes.Name, account.Fullname),
                 new Claim(ClaimTypes.Role,account.RoleId.ToString()),
                 new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
-                new Claim("Mobile", account.Mobile)
+                new Claim("Mobile", account.Mobile),
+                new Claim("Permissions", permission)
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

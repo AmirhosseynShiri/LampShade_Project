@@ -27,7 +27,7 @@ using ShopManagement.Application.Contracts.Slide;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e288fb3b1a1b9e46f8e3355299e278b6bd960efa", @"/Areas/Administration/Pages/Shop/Slide/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d027006424b9e12b1709732f146fce9f1d78e6a1", @"/Areas/Administration/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c591d92e4ac0f58b513853bb181f88e7aa70505", @"/Areas/Administration/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administration_Pages_Shop_Slide_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CreateSlide>
     #nullable disable

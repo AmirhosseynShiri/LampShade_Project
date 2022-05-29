@@ -27,7 +27,7 @@ using BlogMangement.Application.Contracts.AricleCategory;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9aeb1c2bf7574738958761604bc52800f7119faa", @"/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d027006424b9e12b1709732f146fce9f1d78e6a1", @"/Areas/Administration/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c591d92e4ac0f58b513853bb181f88e7aa70505", @"/Areas/Administration/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administration_Pages_Blog_ArticleCategories_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CreateArticleCategory>
     #nullable disable

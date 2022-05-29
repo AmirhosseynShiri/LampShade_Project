@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m6D6259OozC6sMb8qXD4QcQFnZARaXipLuaVCKQZSa3cHpo7M2d/+Blsnt5KiWS2qfMJiznV0jv9/ztD+UVErQ==",
+  "dgSpecHash": "fVEDOBApboZm8QTf4q/DjQJiS5QAdGznLKHmHbxzzi7E+iZi3D2NUkacAv8JZiYlgJxlYm+2I4+IQ1zr1YOprg==",
   "success": true,
   "projectFilePath": "E:\\Atriya\\MVC_Final_Project\\Code\\Lampshade\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\amirs\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\amirs\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\amirs\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\amirs\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\amirs\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\amirs\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\amirs\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

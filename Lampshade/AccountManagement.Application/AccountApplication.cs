@@ -2,8 +2,11 @@
 using _0_FrameWork.Application;
 using AccountManagement.Appllication.Contract.Account;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AccountManagement.Application
 {
@@ -13,14 +16,16 @@ namespace AccountManagement.Application
         private readonly IPasswordHasher _passwordHasher;
         private readonly IFileUploader _fileUploader;
         private readonly IAuthHelper _authHelper;
+        private readonly IRoleRepository _roleRepository;
 
 
-        public AccountApplication(IAccountRepository accountRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper)
+        public AccountApplication(IAccountRepository accountRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper, IRoleRepository roleRepository)
         {
             _accountRepository = accountRepository;
             _fileUploader = fileUploader;
             _passwordHasher = passwordHasher;
             _authHelper = authHelper;
+            _roleRepository = roleRepository;
         }
 
         public OperationResult ChangePassword(ChangePassword command)
@@ -96,8 +101,11 @@ namespace AccountManagement.Application
             if (!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
+            var permission = _roleRepository.Get(account.RoleId).
+                Permissions.Select(x=>x.Code).ToList();
+            
             var authViewModel = new AuthViewModel(account.Id,account.RoleId, account.FullName,
-                account.UserName, account.Mobile);
+                account.UserName, account.Mobile,permission);
             _authHelper.SignIn(authViewModel);
 
             return operation.Succedded();
