@@ -11,6 +11,7 @@ namespace _01_LampshadeQuery.Contract.Product
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
         public string Price { get; set; }
+        public double DoublePrice { get; set; }
         public string PriceWithDiscount { get; set; }
         public int DiscountRate { get; set; }
         public string Slug { get; set; }
