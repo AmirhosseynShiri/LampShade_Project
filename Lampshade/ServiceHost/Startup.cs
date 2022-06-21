@@ -1,10 +1,12 @@
 using _0_Framework.Application;
 using _0_FrameWork.Application;
+using _0_FrameWork.Application.Zarinpal;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrustructure.Configuration;
+using InventoryManagement.Presentation.Api;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
+using ShopManagement.Presentation.Api;
 using System.Collections.Generic;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
@@ -42,6 +45,7 @@ namespace ServiceHost
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IAuthHelper, AuthHelper>();
+            services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 
             #region Cookie Auth Service
             services.Configure<CookiePolicyOptions>(options =>
@@ -92,7 +96,9 @@ namespace ServiceHost
                 options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "AccountAccess");
 
             }
-            );
+            ).AddApplicationPart(typeof(ProductController).Assembly)
+            .AddApplicationPart(typeof(InventoryController).Assembly).
+            AddNewtonsoftJson();
 
             #endregion
 

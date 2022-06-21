@@ -1,12 +1,12 @@
-E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.deps.json
-E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csproj.AssemblyReference.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.AssemblyInfoInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.AssemblyInfo.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csproj.CoreCompileInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\ref\0_FrameWork.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\refint\0_FrameWork.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\0_FrameWork\obj\Debug\net5.0\ref\0_FrameWork.dll

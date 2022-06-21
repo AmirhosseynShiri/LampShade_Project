@@ -1,3 +1,8 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.deps.json
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.pdb
@@ -7,13 +12,8 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Domain.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.AssemblyReference.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CopyComplete
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\refint\ShopManagement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll

@@ -9,6 +9,9 @@
         public string Website { get; set; }
         public long ParentId { get; set; }
         public string ParentName { get; set; }
+        public long OwnerRecordId { get; set; }
+        public string OwnerName { get; set; }
+        public int Type { get; set; }
         public bool IsConfirmed { get; set; }
         public bool IsCanceled { get; set; }
         public string CommentDate { get; set; }

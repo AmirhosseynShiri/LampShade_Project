@@ -1,3 +1,8 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.deps.json
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.pdb
@@ -5,11 +10,6 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\ne
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.AssemblyReference.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfo.cs
-E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CopyComplete
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\refint\CommentManagement.Domain.dll

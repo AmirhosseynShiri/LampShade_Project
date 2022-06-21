@@ -12,7 +12,7 @@ namespace CommentManagement.Domain.CommentAgg
         public bool IsConfirmed { get; private set; }
         public bool IsCanceled { get; private set; }
         public long OwnerRecordId { get; private set; }
-        public int Type { get; set; }
+        public int Type { get; private set; }
         public long ParentId { get; private set; }
         public Comment Parent { get; private set; }
         public List<Comment> Children { get; private set; }

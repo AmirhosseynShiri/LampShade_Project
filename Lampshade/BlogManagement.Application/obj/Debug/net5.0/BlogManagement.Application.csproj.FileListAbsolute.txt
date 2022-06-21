@@ -1,3 +1,8 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Application.deps.json
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Application.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Application.pdb
@@ -7,11 +12,6 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\net5.0\BlogMangement.Application.Contracts.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\bin\Debug\net5.0\0_FrameWork.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.AssemblyReference.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfoInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfo.cs
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.CopyComplete
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Application\obj\Debug\net5.0\refint\BlogManagement.Application.dll

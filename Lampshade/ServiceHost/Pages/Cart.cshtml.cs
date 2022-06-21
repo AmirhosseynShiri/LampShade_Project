@@ -63,7 +63,7 @@ namespace ServiceHost.Pages
             //    return RedirectToPage("/Cart");
             //return RedirectToPage("CheckOut");
 
-            return CartItems.Any(x=>!x.IsInStock) ? RedirectToPage("/Cart") : (IActionResult)RedirectToPage("CheckOut");
+            return CartItems.Any(x=>!x.IsInStock) ? RedirectToPage("/Cart") : RedirectToPage("CheckOut");
         }
     }
 }

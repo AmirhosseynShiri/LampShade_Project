@@ -1,15 +1,11 @@
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.deps.json
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.AssemblyReference.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfoInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfo.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CoreCompileInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\refint\AccountManagement.Application.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\ref\AccountManagement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\0_FrameWork.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Appllication.Contract.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Domain.dll
@@ -17,3 +13,7 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Deb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Domain.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CopyComplete
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\refint\AccountManagement.Application.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Application\obj\Debug\net5.0\ref\AccountManagement.Application.dll

@@ -1,3 +1,8 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\bin\Debug\net5.0\BlogManagement.Infrastructure.EfCore.deps.json
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\bin\Debug\net5.0\BlogManagement.Infrastructure.EfCore.runtimeconfig.json
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\bin\Debug\net5.0\BlogManagement.Infrastructure.EfCore.runtimeconfig.dev.json
@@ -9,11 +14,6 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\bin\Debug\net5.0\BlogMangement.Application.Contracts.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.AssemblyInfo.cs
-E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.csproj.CopyComplete
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EfCore.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\BlogManagement.Infrastructure.EfCore\obj\Debug\net5.0\refint\BlogManagement.Infrastructure.EfCore.dll

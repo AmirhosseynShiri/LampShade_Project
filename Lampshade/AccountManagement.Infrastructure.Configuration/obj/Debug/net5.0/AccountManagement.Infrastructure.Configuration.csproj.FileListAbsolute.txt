@@ -1,15 +1,11 @@
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.deps.json
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.AssemblyInfo.cs
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\refint\AccountManagement.Infrastructure.Configuration.dll
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\AccountManagement.Infrastructure.Configuration.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.deps.json
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\0_FrameWork.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Appllication.Contract.dll
@@ -21,3 +17,7 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Conf
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.csproj.CopyComplete
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\refint\AccountManagement.Infrastructure.Configuration.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\AccountManagement.Infrastructure.Configuration.dll

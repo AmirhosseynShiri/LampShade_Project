@@ -1,3 +1,8 @@
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.AssemblyReference.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.deps.json
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.pdb
@@ -9,11 +14,6 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\D
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\Debug\net5.0\InventoryMangement.Domain.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\Debug\net5.0\0_FrameWork.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.AssemblyReference.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
-E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs
-E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CopyComplete
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Application\obj\Debug\net5.0\refint\InventoryManagement.Application.dll

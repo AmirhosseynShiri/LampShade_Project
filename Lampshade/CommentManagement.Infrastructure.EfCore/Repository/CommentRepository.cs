@@ -21,12 +21,15 @@ namespace CommentManagement.Infrastructure.EfCore.Repository
             var query = _context.Comments.Select(x => new CommentViewModel
             {
                 Id = x.Id,
+                Name = x.Name,
+                Website = x.Website,
+                Message = x.Message,
+                OwnerRecordId=x.OwnerRecordId,
+                Type=x.Type,
                 ParentId = x.ParentId,
                 Email = x.Email,
                 IsCanceled = x.IsCanceled,
                 IsConfirmed = x.IsConfirmed,
-                Message = x.Message,
-                Name = x.Name,
                 CommentDate = x.CreationDate.ToFarsi()
 
             });

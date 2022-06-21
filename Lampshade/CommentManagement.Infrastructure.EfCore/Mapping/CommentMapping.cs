@@ -15,9 +15,10 @@ namespace CommentManagement.Infrastructure.EfCore.Mapping
             builder.Property(x => x.Email).HasMaxLength(500);
             builder.Property(x => x.Website).HasMaxLength(500);
             builder.Property(x => x.Message).HasMaxLength(1000);
-
-
-
+            builder.Property(x => x.IsCanceled);
+            builder.Property(x => x.IsConfirmed);
+            builder.Property(x => x.OwnerRecordId);
+            builder.Property(x => x.Type);
         }
     }
 }

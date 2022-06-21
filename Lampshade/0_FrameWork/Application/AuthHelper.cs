@@ -34,29 +34,20 @@ namespace _0_Framework.Application
             return result;
         }
 
-        //public List<int> GetPermissions()
-        //{
-        //    if (!IsAuthenticated())
-        //        return new List<int>();
 
-        //    var permissions = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "permissions")
-        //        ?.Value;
-        //    return JsonConvert.DeserializeObject<List<int>>(permissions);
-        //}
+        public long CurrentAccountId()
+        {
+            return IsAuthenticated()
+                ? long.Parse(_contextAccessor.HttpContext.User.Claims.First(x => x.Type == "AccountId")?.Value)
+                : 0;
+        }
 
-        //public long CurrentAccountId()
-        //{
-        //    return IsAuthenticated()
-        //        ? long.Parse(_contextAccessor.HttpContext.User.Claims.First(x => x.Type == "AccountId")?.Value)
-        //        : 0;
-        //}
-
-        //public string CurrentAccountMobile()
-        //{
-        //    return IsAuthenticated()
-        //        ? _contextAccessor.HttpContext.User.Claims.First(x => x.Type == "Mobile")?.Value
-        //        : "";
-        //}
+        public string CurrentAccountMobile()
+        {
+            return IsAuthenticated()
+                ? _contextAccessor.HttpContext.User.Claims.First(x => x.Type == "Mobile")?.Value
+                : "";
+        }
 
         public string CurrentAccountRole()
         {

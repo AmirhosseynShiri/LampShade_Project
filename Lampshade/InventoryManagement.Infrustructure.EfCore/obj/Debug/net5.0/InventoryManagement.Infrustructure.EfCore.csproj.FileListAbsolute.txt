@@ -26,3 +26,9 @@ E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.Ef
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\obj\Debug\net5.0\InventoryManagement.Infrustructure.EfCore.pdb
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\obj\Debug\net5.0\InventoryManagement.Infrustructure.EfCore.genruntimeconfig.cache
 E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\obj\Debug\net5.0\ref\InventoryManagement.Infrustructure.EfCore.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\bin\Debug\net5.0\AccountManagement.Appllication.Contract.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EfCore.dll
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EfCore.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\bin\Debug\net5.0\AccountManagement.Appllication.Contract.pdb
+E:\Atriya\MVC_Final_Project\Code\Lampshade\InventoryManagement.Infrustructure.EfCore\bin\Debug\net5.0\AccountManagement.Domain.pdb
